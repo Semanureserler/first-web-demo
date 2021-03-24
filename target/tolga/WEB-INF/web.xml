@@ -3,5 +3,29 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>BM407 Deneme</display-name>
+
+
+  <servlet>
+    <servlet-name>AnasayfaServlet</servlet-name>
+    <servlet-class>tr.duzce.edu.mf.bm.tolga.OrnekServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>KaydetServlet</servlet-name>
+    <servlet-class>tr.duzce.edu.mf.bm.tolga.KaydetServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AnasayfaServlet</servlet-name>
+    <url-pattern>/anasayfa</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>KaydetServlet</servlet-name>
+    <url-pattern>/kaydet</url-pattern>
+  </servlet-mapping>
+
+
+
 </web-app>
