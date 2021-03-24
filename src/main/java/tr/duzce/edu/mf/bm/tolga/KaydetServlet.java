@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 public class KaydetServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) {
+        int a = 5;
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = null;
         String responseHeaderTanimi = "<html><head>";
