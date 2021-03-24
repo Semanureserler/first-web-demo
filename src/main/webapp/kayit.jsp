@@ -9,6 +9,7 @@
 </head>
 <body>
 <h2>Kayıt Formu</h2>
+<h>aa</h>
 <form method="post" action="kaydet">
     <fieldset>
         <legend>Kullanıcı Kayıt Formu</legend>
